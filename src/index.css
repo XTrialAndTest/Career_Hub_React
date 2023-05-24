@@ -1,4 +1,6 @@
 
+
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;500&display=swap');
 
 
@@ -6,46 +8,46 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-/* Your custom styles go here */
 
 :root{
-   font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono', monospace;
 }
 
 body{
-  background: whitesmoke;
- 
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
+ background: whitesmoke;
 
-li{
-  list-style: none;
+ margin: 0;
+
+ place-items: center;
+ min-width: 320px;
+ min-height: 100vh;
+}
+h1{
   cursor: pointer;
-  position: relative;
+}
+li{
+ list-style: none;
+ cursor: pointer;
+ position: relative;
 }
 
 li:hover::before{
-  position: absolute;
-  content: '';
-  height: 4px;
-  width: 100%;
-  background: #2a68ff;
-  right: 0;
-  bottom: -9px;
-  color: #2a68ff;
+ position: absolute;
+ content: '';
+ height: 4px;
+ width: 100%;
+ background: #2a68ff;
+ right: 0;
+ bottom: -9px;
+ color: #2a68ff;
 }
 
 .icon{
-  cursor: pointer;
+ cursor: pointer;
 }
 
 .card{
-  background:url(/src/assets/work.jpg);
+ background:url(/src/assets/work.jpg);
 }
-
 
 
