@@ -1,6 +1,5 @@
 import React from "react"
 import{BiTimeFive} from "react-icons/bi"
-import { Link } from 'react-router-dom';
 import logo1 from "../../assets/logo1.jpg"
 import logo2 from "../../assets/logo2.jpg"
 import logo3 from "../../assets/logo3.jpg"
@@ -18,10 +17,10 @@ const Data = [
   {
     id:1,
     image: logo1,
-    title: "Web\nDeveloper",
+    title: "Web Developer",
     time:"Now",
     location:"Nairobi",
-    description:"web developer: Responsible for designing, coding, and maintaining websites Designing and coding websites, ensuring functionality, and collaborating with team members in Nairobi.",
+    description:"Web Developer: Designing and coding websites, ensuring functionality, and collaborating with team members in Nairobi.",
     company:"Linus Tech Co."
   },
   {
@@ -131,9 +130,7 @@ const Jobs = () => {
                 <img src={image} alt="Company Logo" className="w-[20%] rounded-[10px]" />
                 <span className="text-[14px] py[16px] group-hover:text-white">{company}</span>
               </div>
-              
-            <Link to="/jobs">
-              <button className="border-[2px] rounded-[10px] block p-[10px] w-full text-[14px] font-semibold text-textColor hover:bg-white group-hover/item:text-textColor">Apply Now</button></Link>
+              <button className="border-[2px] rounded-[10px] block p-[10px] w-full text-[14px] font-semibold text-textColor hover:bg-white group-hover/item:text-textColor">Apply Now</button>
             </div>
           )
         })

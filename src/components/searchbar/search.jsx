@@ -5,7 +5,7 @@ import {CiLocationOn} from 'react-icons/ci'
 
 const Search= () => {
   return(
-    <div className="searchbar grid gap-8 bg-greyIsh rounded[10px] p-[48px] mt-16  mx-auto">
+    <div className="searchbar grid gap-10 bg-greyIsh rounded[10px] p-[48px]">
       <form action="">
         <div className="searchone flex justify-between items-center rounded-[10px] gap-[10px] bg-white p-5 shadow-lg shadow-greyish-900" >
               <div className="flex gap-2 items-center">
